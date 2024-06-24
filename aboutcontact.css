@@ -1,0 +1,61 @@
+.about-container {
+    position: relative;
+    background-image: url('image/about.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-content {
+    background-color: #8f4a22c4; /* Warna latar belakang kotak */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.about-container h2,
+.about-container p {
+    color: #fff; /* Warna teks putih agar kontras dengan latar belakang kotak */
+    margin-bottom: 15px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-container {
+    position: relative;
+    background-image: url('image/contact.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-content {
+    background-color: #8f4a22c4; /* Warna latar belakang kotak */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contact-container h2,
+.contact-container p {
+    color: #fff; /* Warna teks putih agar kontras dengan latar belakang kotak */
+    margin-bottom: 15px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
